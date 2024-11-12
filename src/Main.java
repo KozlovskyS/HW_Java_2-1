@@ -4,9 +4,9 @@ public class Main {
         int price_mile;
         int bonus;
         price_mile = 20;
-        price_ticket = 25386;
+        price_ticket = 13676;
         bonus = price_ticket / price_mile;
-        System.out.println(bonus);
+        System.out.println("Поздравляем! Ваш бонус: " + bonus + " бесплатных миль");
     }
 }
 
